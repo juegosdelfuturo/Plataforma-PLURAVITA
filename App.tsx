@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { ViewState, BookingData, Therapist } from './types';
-import { THERAPISTS } from './constants';
-import { Hero } from './components/Hero';
-import { TherapistList } from './components/TherapistList';
-import { TopicSelection } from './components/TopicSelection';
-import { BookingScheduler } from './components/BookingScheduler';
-import { PaymentForm } from './components/PaymentForm';
-import { Button } from './components/Button';
+import { ViewState, BookingData, Therapist } from './types.ts';
+import { THERAPISTS } from './constants.ts';
+import { Hero } from './components/Hero.tsx';
+import { TherapistList } from './components/TherapistList.tsx';
+import { TopicSelection } from './components/TopicSelection.tsx';
+import { BookingScheduler } from './components/BookingScheduler.tsx';
+import { PaymentForm } from './components/PaymentForm.tsx';
+import { Button } from './components/Button.tsx';
 import { Sprout, CheckCircle2 } from 'lucide-react';
 
 export default function App() {

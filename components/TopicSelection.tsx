@@ -1,5 +1,5 @@
 import React from 'react';
-import { SUPPORT_TOPICS } from '../constants';
+import { SUPPORT_TOPICS } from '../constants.ts';
 import { Briefcase, User, Heart, Zap, CloudRain, Smile, ArrowLeft } from 'lucide-react';
 
 interface TopicSelectionProps {

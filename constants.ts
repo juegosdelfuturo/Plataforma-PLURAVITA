@@ -1,4 +1,4 @@
-import { Therapist, DaySchedule } from './types';
+import { Therapist, DaySchedule } from './types.ts';
 
 export const THERAPISTS: Therapist[] = [
   // --- SUPPORT THERAPISTS ---

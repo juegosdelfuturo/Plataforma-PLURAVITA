@@ -1,6 +1,6 @@
 import React from 'react';
-import { Therapist } from '../types';
-import { Button } from './Button';
+import { Therapist } from '../types.ts';
+import { Button } from './Button.tsx';
 import { GraduationCap, ArrowLeft } from 'lucide-react';
 
 interface TherapistListProps {
@@ -37,7 +37,7 @@ export const TherapistList: React.FC<TherapistListProps> = ({ therapists, title,
               <img 
                 src={therapist.image} 
                 alt={therapist.name} 
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-slate-700 flex items-center shadow-sm">
                 <GraduationCap className="w-3 h-3 mr-1 text-teal-600" />

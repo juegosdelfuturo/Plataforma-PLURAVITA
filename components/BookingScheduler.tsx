@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Therapist, DaySchedule } from '../types';
-import { generateMockSchedule } from '../constants';
-import { Button } from './Button';
+import { Therapist, DaySchedule } from '../types.ts';
+import { generateMockSchedule } from '../constants.ts';
+import { Button } from './Button.tsx';
 import { Calendar, Clock, ChevronLeft, Euro } from 'lucide-react';
 
 interface BookingSchedulerProps {
